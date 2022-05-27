@@ -30,7 +30,7 @@
 	</dependencies>
 
 	<build>
-	<finalName>spring-starter</finalName>
+	<finalName>demo-deploy</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

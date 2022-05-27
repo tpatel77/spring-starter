@@ -1,5 +1,5 @@
 FROM openjdk:11
 EXPOSE 8082
-ADD target/spring-starter.jar spring-starter.jar
-ENTRYPOINT ["java","-jar","/spring-starter.jar"]
+ADD target/demo-deploy.jar demo-deploy.jar
+ENTRYPOINT ["java","-jar","/demo-deploy.jar"]
 
